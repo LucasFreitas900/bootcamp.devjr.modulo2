@@ -19,7 +19,7 @@
            overflow: hidden;
         }
         .header{
-            padding: 40px;
+            padding: 2.5rem;
         }
         .flex-container{
         display: flex ;
@@ -27,52 +27,52 @@
         }
         .header-tittler{
             color: #006666;
-            font-size: 28px;
+            font-size: 2rem;
             font-weight: 700;
-            margin-bottom: 20px;
+            margin-bottom: 1.2rem;
         }
         .header-center{
             color: #008787;
-            font-size: 20px;
+            font-size: 1.2rem;
             font-weight: 500;
-            margin-bottom: 15px;
+            margin-bottom: 0.9rem;
 
         }
         .colu-1{
             background-color: #006666;
             width: 50%;
-            padding: 20px;
+            padding: 1.2rem;
             color: #FFFFFF;
         }
         .colu-2{
             background-color: #008787;
             width: 50%;
-            padding: 10px 20px;
+            padding: 0.6rem 1.2rem;
             color: #FFFFFF;
         }
         .subscription-title{
-            font-size: 20px;
+            font-size: 1.2rem;
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 1.2rem;
         }
         .price{
-            font-size: 26px;
+            font-size: 1.6rem;
             font-weight: 700;
         }
         .month{
-            font-size: 15px;
+            font-size: 0.9rem;
             font-style: italic;
-            margin-left: 15px;
+            margin-left: 0.9rem;
         }
         .button{
             width: 100%;
-            padding: 15px 32px;
+            padding: 0.9rem 2rem;
             color: #006666;
-            font-size: 16px;
+            font-size: 1rem;
             border-radius: 4px;
             border: none;
             background-color: #F0F0F0;
-            margin-top: 20px;
+            margin-top: 1.2rem;
             cursor: pointer;
         }
         .button:hover{
@@ -80,6 +80,24 @@
         }
         .image-group{
             text-align: center;
+        }
+
+        @media screen and (max-width: 620px){
+            html {
+                font-size: 14px;
+                
+            }
+            .flex-container{
+                flex-direction:column;
+            }
+            .colu-1, .colu-2{
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 95%;
+            }    
+            
         }
     </style>
 </head>
@@ -90,7 +108,7 @@
             Entre para nossa comunidade!
             </div>
             <div class="header-center">
-            Faça sua assinatura agora e ganhe 30% de desconto.
+            Faça sua assinatura agora e ganhe 30% de desconto!
             </div>
             <div>
             Faça parte da nossa comunidade de desenvolvedores.
